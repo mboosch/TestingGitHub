@@ -17,6 +17,6 @@ public class TestingGitHubApplication {
 
     @GetMapping
     public String initialGreeting() {
-        return "Whoever you are, you are welcome!";
+        return "Whoever you are, you are welcome! But don't stay to long.";
     }
 }
